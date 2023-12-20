@@ -50,3 +50,8 @@ We integrated MobileNet as the foundational model and extended it by appending a
 |--------------------------|-----------------------|------------|
 | Total params: 3,360,580  | Trainable params: 131,716 | Non-trainable params: 3,228,864 |
 |--------------------------|-----------------------|------------|
+
+- Training Loss: 0.0520
+- Training Accuracy: 99.37%
+- Validation Loss: 0.0150
+- Validation Accuracy: 99.50%
