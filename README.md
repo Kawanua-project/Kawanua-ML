@@ -35,23 +35,12 @@ Our final dataset is a collection from various sources, primarily obtained from 
 ## Model Acrhitecture
 We integrated MobileNet as the foundational model and extended it by appending additional layers to tailor it to our specific requirements.
 
-| Layer (type)             | Output Shape          | Param #    |
-|--------------------------|-----------------------|------------|
-| input_6 (InputLayer)     | (None, 224, 224, 3)   | 0          |
-| conv1 (Conv2D)           | (None, 112, 112, 32)  | 864        |
-| conv1_bn (BatchNormaliz.)| (None, 112, 112, 32)  | 128        |
-| conv1_relu (ReLU)        | (None, 112, 112, 32)  | 0          |
-| ...                      | ...                   | ...        |
-| conv_pw_13_relu (ReLU)   | (None, 7, 7, 1024)    | 0          |
-| global_average_pooling2d | (None, 1024)          | 0          |
-| dense_10 (Dense)         | (None, 128)           | 131200     |
-| dropout_5 (Dropout)      | (None, 128)           | 0          |
-| dense_11 (Dense)         | (None, 4)             | 516        |
-|--------------------------|-----------------------|------------|
-| Total params: 3,360,580  | Trainable params: 131,716 | Non-trainable params: 3,228,864 |
-|--------------------------|-----------------------|------------|
-
+- Total params: 3,360,580
 - Training Loss: 0.0520
 - Training Accuracy: 99.37%
 - Validation Loss: 0.0150
 - Validation Accuracy: 99.50%
+
+## Model Deployment
+For deploying the model, we employ Flask API, a web framework in Python, which enables us to serve the machine learning model as an API.
+
