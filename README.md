@@ -30,7 +30,7 @@ To accomplish this classification task, we harness the power of Convolutional Ne
 3. **Google Colab**
 
 ## Datasets
-Our final dataset is a collection from various sources, primarily obtained from Kaggle and through Google search scraping. Here is the link to our final datasets: [Kawanua Datasets](https://github.com/Kawanua-project/Kawanua-ML/Datasets).
+Our final dataset is a collection from various sources, primarily obtained from Kaggle and through Google search scraping. Here is the link to our final datasets: [Kawanua Datasets](https://github.com/Kawanua-project/Kawanua-ML/tree/main/Datasets).
 
 ## Model Acrhitecture
 We integrated MobileNet as the foundational model and extended it by appending additional layers to tailor it to our specific requirements.
